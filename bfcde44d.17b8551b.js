@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{170:function(n,t,e){"use strict";e.r(t);var a=e(0),o=e.n(a),r=(e(189),e(193));t.default=function(){return o.a.createElement(r.a,{to:"/listed/creating-a-blog-from-your-notes-with-listed-and-standard-notes"})}}}]);
