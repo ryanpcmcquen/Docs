@@ -17,25 +17,25 @@
 <link rel="stylesheet" href="/styles.c918f7c8.css">
 
 
-<link rel="preload" href="/styles.c06fa580.js" as="script">
+<link rel="preload" href="/styles.1b8e8bcf.js" as="script">
 
-<link rel="preload" href="/runtime~main.a62f804d.js" as="script">
+<link rel="preload" href="/runtime~main.65e3675c.js" as="script">
 
-<link rel="preload" href="/main.c66f8581.js" as="script">
+<link rel="preload" href="/main.34339ba3.js" as="script">
 
-<link rel="preload" href="/1.0ba212e5.js" as="script">
+<link rel="preload" href="/1.f80310f2.js" as="script">
 
-<link rel="preload" href="/2.a5d2ffe3.js" as="script">
+<link rel="preload" href="/2.1ac8d8f0.js" as="script">
 
-<link rel="preload" href="/3.c7a0ce03.js" as="script">
+<link rel="preload" href="/3.e467e40c.js" as="script">
 
-<link rel="preload" href="/1be78505.e44ff231.js" as="script">
+<link rel="preload" href="/1be78505.ba4230ed.js" as="script">
 
-<link rel="preload" href="/ec1ed54d.5e4608d8.js" as="script">
+<link rel="preload" href="/ec1ed54d.f90e70c0.js" as="script">
 
-<link rel="preload" href="/17896441.db9b81a6.js" as="script">
+<link rel="preload" href="/17896441.b5cea76e.js" as="script">
 
-<link rel="preload" href="/a5aa15df.7bf63de3.js" as="script">
+<link rel="preload" href="/a5aa15df.6f4416a1.js" as="script">
 
 </head>
 <body>
@@ -45,25 +45,25 @@
 The <code>area</code> describes what kind of extension this will be. A list of valid values can be found in the <a href="/extensions/publishing">Publishing guide</a>.</p></li><li><p>In your browser, open <a href="http://localhost:8001/ext.json">http://localhost:8001/ext.json</a> and make sure you see the JSON file content from above.</p></li><li><p>Copy the <code>url</code> from the JSON content and open it in your browser. Here, you should see your actual extension running. Your server will look for an <code>index.html</code> file by default.</p><p>If your main HTML file is called something different, or is not located in the root directory, simply change the <code>url</code> value in the JSON file to reflect this location. For example:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_32p_"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1BYj">Copy</button><div tabindex="0" class="prism-code language-bash codeBlock_19pQ"><div class="codeBlockLines_2n9r" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">url: </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;http://localhost:8001/dist/index.html&quot;</span></div></div></div></div></div></li><li><p>At this point, your extension is ready to be installed. Open <strong>Standard Notes</strong>, and click on <strong>Extensions</strong> in the lower left corner of the app.</p></li><li><p>In the bottom right of the <strong>Extensions</strong> window, click <strong>Import Extension</strong>. In the Extension Link field, enter the URL of your ext.json file. In this case, it will be <code>http://localhost:8001/ext.json</code>. Then press enter.</p></li><li><p>You should see a message that your extension was successfully installed. You can now scroll up in the <strong>Extensions</strong> window, and click <strong>Activate</strong> next to your extension to run it. If it is an editor, Editors can be activated via the <strong>Editor menu</strong> in the note panel, under the note title.</p></li></ol><hr><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="themes"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#themes" title="Direct link to heading">#</a>Themes</h3><p>If you&#x27;re creating a theme, you would follow the same instructions, and for <code>area</code> in the JSON file, use &quot;themes&quot;, and for the URL, it should link directly to your css file, i.e <code>http://localhost:8001/theme.css</code>.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="publishing"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#publishing" title="Direct link to heading">#</a>Publishing</h3><p>Once you&#x27;re ready to ship your extension in a production environment, check out the <a href="/extensions/publishing">Publishing guide</a> to learn more about configuring your extension to autoupdate and be installed in an offline environment.</p></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/standardnotes/docs/edit/master/docs/extensions/local-setup.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col text--right"><em><small>Last updated on <time datetime="2020-02-29T23:36:38.000Z" class="docLastUpdatedAt_1sqk">2/29/2020</time></small></em></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/extensions/building-an-extension"><div class="pagination-nav__link--sublabel">Previous</div><div class="pagination-nav__link--label">« Building an Extension</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/extensions/themes"><div class="pagination-nav__link--sublabel">Next</div><div class="pagination-nav__link--label">Themes »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#steps" class="contents__link">Steps</a><ul><li><a href="#themes" class="contents__link">Themes</a></li><li><a href="#publishing" class="contents__link">Publishing</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Resources</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/self-hosting/getting-started">Self Host a Sync Server</a></li><li class="footer__item"><a class="footer__link-item" href="/extensions/intro">Build an Extension</a></li><li class="footer__item"><a class="footer__link-item" href="/specification/encryption">Specifications</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://standardnotes.org/slack">Join our Slack</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://forum.standardnotes.org/">Community Forum</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Support</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://blog.standardnotes.org">Help &amp; Contact</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/standardnotes">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://reddit.com/r/standardnotes">Reddit</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 <a href="https://standardnotes.org">Standard Notes</a></div></div></div></footer>
 </div>
 
-<script src="/styles.c06fa580.js"></script>
+<script src="/styles.1b8e8bcf.js"></script>
 
-<script src="/runtime~main.a62f804d.js"></script>
+<script src="/runtime~main.65e3675c.js"></script>
 
-<script src="/main.c66f8581.js"></script>
+<script src="/main.34339ba3.js"></script>
 
-<script src="/1.0ba212e5.js"></script>
+<script src="/1.f80310f2.js"></script>
 
-<script src="/2.a5d2ffe3.js"></script>
+<script src="/2.1ac8d8f0.js"></script>
 
-<script src="/3.c7a0ce03.js"></script>
+<script src="/3.e467e40c.js"></script>
 
-<script src="/1be78505.e44ff231.js"></script>
+<script src="/1be78505.ba4230ed.js"></script>
 
-<script src="/ec1ed54d.5e4608d8.js"></script>
+<script src="/ec1ed54d.f90e70c0.js"></script>
 
-<script src="/17896441.db9b81a6.js"></script>
+<script src="/17896441.b5cea76e.js"></script>
 
-<script src="/a5aa15df.7bf63de3.js"></script>
+<script src="/a5aa15df.6f4416a1.js"></script>
 
 
 </body>
