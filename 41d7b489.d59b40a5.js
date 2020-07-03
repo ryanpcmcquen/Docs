@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{128:function(e,n,t){"use strict";t.r(n);var s=t(0),r=t.n(s),a=(t(194),t(195));n.default=function(){return r.a.createElement(a.a,{to:"/listed/subscribers"})}}}]);
