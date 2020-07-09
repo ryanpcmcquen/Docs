@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[46],{147:function(e,n,t){"use strict";t.r(n);var s=t(0),a=t.n(s),o=(t(194),t(195));n.default=function(){return a.a.createElement(o.a,{to:"/listed/styles"})}}}]);

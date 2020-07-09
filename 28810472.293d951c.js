@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{119:function(e,n,t){"use strict";t.r(n);var o=t(0),a=t.n(o),s=(t(194),t(195));n.default=function(){return a.a.createElement(s.a,{to:"/listed/guestbook"})}}}]);
